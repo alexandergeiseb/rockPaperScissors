@@ -1,0 +1,29 @@
+root {
+    --seasalt: #f7f9f9ff;
+    --asparagus: #659157ff;
+    --picton-blue: #39a9dbff;
+    --giants-orange: #eb6534ff;
+    --night: #0f110cff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--seasalt);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 50px;
+}
